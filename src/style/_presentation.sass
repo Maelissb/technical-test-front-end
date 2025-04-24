@@ -1,0 +1,52 @@
+.container-presentation
+  background-color: #F3F0EA
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 5rem
+  gap: 2rem
+  flex-wrap: wrap
+  margin: 0 0 5rem 0
+
+.img-presentation
+    img
+        width: 100%
+
+.presention-content
+  color: #49494A
+  flex: 1
+  text-align: left
+  padding-left: 4rem
+
+ 
+/* mobile et tablette */
+@media (max-width: 768px)
+  .container-presentation
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    gap: 3rem
+    padding: 1rem
+    
+
+  .presention-content
+    align-items: center
+    text-align: center
+    width: 50%
+
+    h1
+      font-size: 2rem 
+      text-align: center
+      margin-bottom: 1rem
+
+  .img-presentation
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100% 
+    max-width: 100% 
+
+  img
+    max-width: 100%  
+

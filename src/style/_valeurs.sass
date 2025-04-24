@@ -1,0 +1,51 @@
+.container-valeurs
+    color: #49494A
+
+.title-valeurs
+    color: #71a894
+
+.container-cards
+    display: flex
+
+.card
+    background-color: #FFFFFF
+    margin: 1rem
+    padding: 3rem 2rem
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+    border-radius: 10px
+
+    img
+        width: 40%
+    
+
+/* mobile et tablette */ 
+@media (max-width: 768px)
+  .container-valeurs
+    align-items: center
+    text-align: center
+    padding: 2rem
+    box-sizing: border-box
+
+  .container-cards
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    gap: 2rem
+
+  .card
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 90%
+    max-width: 400px
+    height: 500px
+    padding: 1rem
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+    border-radius: 10px
+
+  img
+    max-width: 50%
+

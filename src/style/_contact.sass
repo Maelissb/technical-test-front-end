@@ -1,0 +1,32 @@
+.container-contact
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 2rem
+  gap: 2rem
+  flex-wrap: wrap
+  margin: 2rem 0 5rem 
+
+.text-content
+  color: #49494A
+  flex: 1
+  text-align: left
+
+img
+  width: 100%
+  max-width: 500px 
+  
+/* mobile et tablette */
+@media (max-width: 768px)
+  .container-contact
+    flex-direction: column
+    align-items: center
+    text-align: center
+    gap: 3rem
+
+  .text-content
+    text-align: center
+
+  img
+    max-width: 100%
+
