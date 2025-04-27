@@ -1,7 +1,8 @@
 import './App.css'
-import Header from './components/Header/contact';
+import Contact from './components/Header/contact';
 import Menu from './components/Header/Menu'
 import Presentation from './components/Presentation';
+import Reservez from './components/Reservez';
 import Valeurs from './components/Valeurs';
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <>
       <div>
         <Menu />
-        <Header />
+        <Contact/>
         <Presentation />
         <Valeurs />
+        <Reservez />
       </div>
     </>
   )

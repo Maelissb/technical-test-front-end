@@ -1,6 +1,8 @@
+// troisième section avec les valeurs
+
 import './../style/_valeurs.sass'
 
-function Valeurs(){
+const Valeurs = () => {
     return(
         <div id="valeurs"className="container-valeurs">
             <div className='title-valeurs'><h1>Nos valeurs</h1></div>
@@ -24,11 +26,11 @@ function Valeurs(){
                 </div>
                 <div className='card'>
                     <img src="/icons/plant-icon.svg" alt="icone plante" />
-                    <h2>Bien-être des Chats</h2>
-                    <p>Le bonheur et le bien-être de nos amis félins sont au cœur de notre philosophie. 
-                        Nous offrons un environnement sûr et confortable à nos chats résidents, où ils
-                        peuvent interagir avec nos clients et recevoir toute l'attention et l'affection 
-                        qu'ils méritent.</p>
+                    <h2>Engagement Environnemental</h2>
+                    <p>Nous sommes soucieux de l'impact environnemental de notre entreprise. 
+                    C'est pourquoi nous nous engageons à utiliser des produits respectueux de 
+                    l'environnement et à promouvoir des pratiques durables dans tous les aspects 
+                    de notre activité, de la sélection des fournisseurs à la gestion des déchets.</p>
                 </div>
             </div>
         </div>

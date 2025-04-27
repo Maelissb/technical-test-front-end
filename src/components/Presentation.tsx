@@ -1,6 +1,8 @@
+//deuxième section avec la présentation
+
 import '../style/_presentation.sass'
 
-function Presentation() {
+const Presentation = () => {
 return(
     <div id="presentation" className="container-presentation">
         <div className='img-presentation'>
@@ -12,7 +14,7 @@ return(
 
             <p>
                 Bienvenue chez Café Neko, l'endroit où le café et les chats se rencontrent
-                pour créer une experience unique en son genre.
+                 pour créer une experience unique en son genre.
             </p>
             <p>
                 Chez Café Neko, nous sommes passionnés par deux choses : le café de

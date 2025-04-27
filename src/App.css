@@ -27,6 +27,14 @@
   }
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

@@ -5,28 +5,99 @@
   padding: 2rem
   gap: 2rem
   flex-wrap: wrap
-  margin: 2rem 0 5rem 
+  margin: 2rem 0 5rem // margin pour descendre par rapport au menu
 
 .text-content
   color: #49494A
   flex: 1
   text-align: left
+  padding: 0 4.1rem
+  margin: 0
+  width: 10px
+
+  h1
+    font-size: 64px
+    margin: 0
+
+  h2
+    font-size: 22px
+
+  p
+    font-size: 16px
+    margin: 0 0 2.5rem 0
+    
 
 img
   width: 100%
   max-width: 500px 
   
-/* mobile et tablette */
-@media (max-width: 768px)
+@media (max-width: 1080px)
   .container-contact
     flex-direction: column
     align-items: center
+    justify-content: center
     text-align: center
+    padding: 2rem 1rem
     gap: 3rem
 
   .text-content
     text-align: center
+    padding: 0
+    width: 100%
+
+    h1
+      font-size: 48px
+
+    h2
+      font-size: 20px
+
+    p
+      font-size: 16px
 
   img
-    max-width: 100%
+    max-width: 80%
+
+/* Responsive tablette + mobile */
+@media (max-width: 768px)
+  .container-contact
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: center
+    padding: 2rem 1rem
+    gap: 3rem
+
+  .text-content
+    text-align: center
+    padding: 0
+    width: 100%
+
+    h1
+      font-size: 48px
+
+    h2
+      font-size: 20px
+
+    p
+      font-size: 16px
+
+  img
+    
+
+@media (max-width: 414px)
+  .container-contact
+    padding: 2rem 1rem
+
+  .text-content
+    h1
+      font-size: 40px
+
+    h2
+      font-size: 18px
+
+    p
+      font-size: 15px
+
+  img
+   
 

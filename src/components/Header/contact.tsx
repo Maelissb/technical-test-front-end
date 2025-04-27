@@ -1,8 +1,10 @@
+// Première section avec le Bienvenue et le contact
+
 import '../../style/_contact.sass'
 import Button from '../button'
 
 
-function Header() {
+const Contact = () => {
 return(
     <div className="container-contact">
         <div className="text-content">
@@ -12,8 +14,8 @@ return(
             accompagnée d'une dose d'amour félin.
             </p>
             <Button text="Nous contacter" />
-
         </div>
+        
         <div>
             <img src="/images/cat-hero-section.png" alt="photo de chat" />
         </div>
@@ -21,4 +23,4 @@ return(
 )
 }
 
-export default Header
+export default Contact
