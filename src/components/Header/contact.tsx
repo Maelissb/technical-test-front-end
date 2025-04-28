@@ -6,7 +6,7 @@ import Button from '../button'
 
 const Contact = () => {
 return(
-    <div className="container-contact">
+    <div id="accueil" className="container-contact">
         <div className="text-content">
             <h1 className="title">Bienvenue <br/>Chez Café Neko</h1>
             <h2>L'endroit où le café rencontre les ronronnements</h2>

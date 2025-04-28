@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import '../../style/_menu.sass';
 
 const Menu = () => {
@@ -18,9 +17,9 @@ const Menu = () => {
       <nav className="menu">
         <div className="menu-container">
           <div className="menu-logo">
-            <Link to="/">
+            <a href="#accueil">
               <img src="/images/logo.svg" alt="Logo" />
-            </Link>
+            </a>
           </div>
           <div className="menu-burger" onClick={toggleMenu}>
             <span className="bar"></span>
