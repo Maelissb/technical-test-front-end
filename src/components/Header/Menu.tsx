@@ -5,9 +5,12 @@ import '../../style/_menu.sass';
 const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Fonction pour gérer l'ouverture/fermeture du menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -19,18 +22,16 @@ const Menu = () => {
               <img src="/images/logo.svg" alt="Logo" />
             </Link>
           </div>
-          {/* Bouton burger */}
           <div className="menu-burger" onClick={toggleMenu}>
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
           </div>
 
-          {/* Liste des éléments du menu */}
           <ul className={`menu-list ${isMenuOpen ? 'open' : ''}`}>
-            <li><Link to="#presentation" onClick={() => setIsMenuOpen(false)}>Qui sommes-nous ?</Link></li>
-            <li><Link to="#valeurs" onClick={() => setIsMenuOpen(false)}>Nos Valeurs</Link></li>
-            <li><Link to="/reservation" onClick={() => setIsMenuOpen(false)}>Réservez !</Link></li>
+            <li><a href="#presentation" onClick={closeMenu}>Qui sommes-nous ?</a></li>
+            <li><a href="#valeurs" onClick={closeMenu}>Nos Valeurs</a></li>
+            <li><a href="#reservation" onClick={closeMenu}>Réservez !</a></li>
           </ul>
         </div>
       </nav>

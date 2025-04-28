@@ -29,7 +29,7 @@ const Reservez = () => {
   };
 
   return (
-    <div className="container-reservez">
+    <div  id="reservation"className="container-reservez">
       <div className="content-reservez">
         <h1>Réservez votre table !</h1>
         <p>
